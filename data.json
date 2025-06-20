@@ -1,0 +1,159 @@
+{
+  "profile": {
+    "name": "Alex Carter",
+    "title": "Web Developer",
+    "location": "From India",
+    "aboutButton": "About Me",
+    "image": "./assets/profile-img.jpg"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "I'm a Creative Front End Developer.",
+    "description": [
+      "With over 5 years of experience in web development, I specialize in creating beautiful, functional, and user-friendly interfaces. My passion lies in combining elegant design with clean code to deliver exceptional digital experiences.",
+      "I'm proficient in modern JavaScript frameworks and have a strong eye for design details. My approach focuses on performance, accessibility, and responsive design principles to ensure websites work flawlessly across all devices.",
+      "When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or mentoring aspiring developers."
+    ],
+    "image": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80"
+  },
+  "skills": {
+    "title": "Skills",
+    "items": [
+      {
+        "name": "HTML5",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "description": "Semantic markup, accessibility"
+      },
+      {
+        "name": "CSS3",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "description": "Responsive design, animations, Flexbox, Grid"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "description": "ES6+, DOM manipulation, async programming"
+      },
+      {
+        "name": "React",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "description": "Components, hooks, state management"
+      },
+      {
+        "name": "Vue.js",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+        "description": "Components, Vuex, Vue Router"
+      },
+      {
+        "name": "Node.js",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        "description": "Server-side JavaScript, Express, APIs"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "items": [
+      {
+        "title": "ShopEase",
+        "description": "Full-stack e-commerce platform with cart, payments, and admin dashboard",
+        "image": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+        "tags": [
+          {"name": "React", "class": "tag-react"},
+          {"name": "Node.js", "class": "tag-node"},
+          {"name": "MongoDB", "class": "tag-mongo"}
+        ],
+        "stats": [
+          {"value": "98%", "label": "Uptime"},
+          {"value": "2.4s", "label": "Load Time"}
+        ],
+        "links": [
+          {"type": "demo", "url": "#"},
+          {"type": "code", "url": "#"}
+        ]
+      },
+      {
+        "title": "TaskFlow",
+        "description": "Kanban-style task manager with drag-and-drop functionality",
+        "image": "https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+        "tags": [
+          {"name": "Vue.js", "class": "tag-vue"},
+          {"name": "Firebase", "class": "tag-firebase"},
+          {"name": "Tailwind", "class": "tag-tailwind"}
+        ],
+        "stats": [
+          {"value": "1.2k", "label": "Users"},
+          {"value": "4.9★", "label": "Rating"}
+        ],
+        "links": [
+          {"type": "demo", "url": "#"},
+          {"type": "code", "url": "#"}
+        ]
+      },
+      {
+        "title": "ShopEase",
+        "description": "Full-stack e-commerce platform with cart, payments, and admin dashboard",
+        "image": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+        "tags": [
+          {"name": "React", "class": "tag-react"},
+          {"name": "Node.js", "class": "tag-node"},
+          {"name": "MongoDB", "class": "tag-mongo"}
+        ],
+        "stats": [
+          {"value": "98%", "label": "Uptime"},
+          {"value": "2.4s", "label": "Load Time"}
+        ],
+        "links": [
+          {"type": "demo", "url": "#"},
+          {"type": "code", "url": "#"}
+        ]
+      },
+      {
+        "title": "TaskFlow",
+        "description": "Kanban-style task manager with drag-and-drop functionality",
+        "image": "https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+        "tags": [
+          {"name": "Vue.js", "class": "tag-vue"},
+          {"name": "Firebase", "class": "tag-firebase"},
+          {"name": "Tailwind", "class": "tag-tailwind"}
+        ],
+        "stats": [
+          {"value": "1.2k", "label": "Users"},
+          {"value": "4.9★", "label": "Rating"}
+        ],
+        "links": [
+          {"type": "demo", "url": "#"},
+          {"type": "code", "url": "#"}
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "info": [
+      {
+        "icon": "map-marker",
+        "title": "Address",
+        "content": "123 Tech Street,<br>San Francisco,<br>CA 94107"
+      },
+      {
+        "icon": "phone",
+        "title": "Phone",
+        "content": "+1 (555) 123-4567"
+      },
+      {
+        "icon": "envelope",
+        "title": "Email",
+        "content": "contact@alexcarter.dev"
+      },
+      {
+        "icon": "github",
+        "title": "GitHub",
+        "content": "github.com/alexcarter"
+      }
+    ]
+  },
+  "footer": {
+    "text": "Copyright © 2023 Alex Carter. All Rights Reserved."
+  }
+}
