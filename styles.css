@@ -1009,6 +1009,20 @@ header .menu li a:hover {
 }
 
 /* Typewriter Effect */
+
+.typewriter-container {
+    display: inline-block;
+    max-width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+@media (max-width: 480px) {
+    .typewriter-container {
+        width: 100%;
+    }
+}
+
 .typewriter {
     overflow: hidden;
     border-right: 3px solid var(--primary);

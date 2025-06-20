@@ -35,3 +35,25 @@ document.querySelectorAll('.skillsBx, .projectsBx, .box, .formBx').forEach(el =>
 // Run on load and scroll
 window.addEventListener('load', animateOnScroll);
 window.addEventListener('scroll', animateOnScroll);
+
+// Optional: Cycle through multiple titles
+const typewriterTexts = [
+    "A Frontend Specialist.",
+    "A UI/UX Enthusiast.",
+    "A JavaScript Developer."
+];
+const typewriterElement = document.querySelector('.typewriter');
+let currentIndex = 0;
+
+function changeTypewriterText() {
+    typewriterElement.style.animation = 'none';
+    typewriterElement.offsetHeight; /* Trigger reflow */
+    typewriterElement.textContent = typewriterTexts[currentIndex];
+    typewriterElement.style.animation = null;
+
+    currentIndex = (currentIndex + 1) % typewriterTexts.length;
+    setTimeout(changeTypewriterText, 4000); // Change every 4 seconds
+}
+
+// Start the cycle after initial animation completes
+setTimeout(changeTypewriterText, 3500);
